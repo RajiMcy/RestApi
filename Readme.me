@@ -1,0 +1,31 @@
+https://learning.oreilly.com/videos/building-restful-apis/9781789614992/9781789614992-video1_3/
+
+## API Outline:
+
+1. Resource - a list of users
+2. List item data - name,role and id
+3. Functionality - Create, Read, Update and Delete (CRUD)
+4. Endpoints:
+    a. Collection:/users
+    b.Item:/users/{id}
+5. Data format -JSON
+
+## Persistent Data Store:
+
+1. Local key-value store:
+    . Low traffic volume,little data and simple data
+
+ 2. Separate DB server:
+    . Complex data,indendently scalable and busier sites
+
+ 3. Memory cache + DB cluster:
+    . High end, big data and high traffic volume
+
+
+## Storm:
+  go get github.com/asdine/storm
+  Storm is a simple and powerful toolkit for BoltDB. Basically, Storm provides indexes, a wide range of methods to store and fetch data, an advanced query system, and much more.
+
+## Bson:
+go get gopkg.in/mgo.v2/bson
+t was created as part of the mgo MongoDB driver for Go, but is standalone and may be used on its own without the driver.
